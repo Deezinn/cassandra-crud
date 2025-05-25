@@ -20,7 +20,7 @@ Para iniciar o Cassandra localmente, execute:
 ```bash
 docker run --name cassandra -p 9042:9042 -d cassandra:latest
 
-A primeira inicialização pode levar alguns minutos.
+    A primeira inicialização pode levar alguns minutos.
 
 Verifique os logs para saber quando o serviço estiver pronto:
 
@@ -63,11 +63,3 @@ crud_cassandra/
     Execute a aplicação:
 
 python main.py
-
-📌 Observações
-
-    O projeto se conecta ao Cassandra via 127.0.0.1:9042.
-
-    A aplicação cria o keyspace e a tabela automaticamente se não existirem.
-
-    Ideal para aprendizado e testes locais com Python e Cassandra.
